@@ -1,2 +1,2 @@
 # MCA
-[index](index.html)
+[index](https://carolinemca.github.io/MCA-2020/)
