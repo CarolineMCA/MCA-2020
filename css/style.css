@@ -14,6 +14,14 @@ tei-teiHeader {
   display: none;
 }
 
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
 
 p {
    color: black;
@@ -70,11 +78,14 @@ th, tr {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-table{
+figcaption{
+	font-family: Arial, Helvetica, sans-serif;
 	font-size:18px;
+	text-align:center; 
 }
 
-hr{ color:#d9d9d9;
+table{
+	font-size:18px;
 }
 
 .main {
@@ -108,5 +119,7 @@ iframe {
     padding: none;
 	border: none;
     }
+
+
 
 
