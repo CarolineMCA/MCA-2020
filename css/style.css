@@ -6,9 +6,18 @@ tei-teiHeader {
   display: none;
 }
 
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
 
 p {
    color: black;
+   font-size:18px;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -47,9 +56,25 @@ h3{
 }
 
 ul {
- list-style-type: none;
- padding-right: 30px; 
+	list-style-type: none;
+	padding-right: 30px; 
  
+}
+
+li{	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th, tr {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+	font-size:18px;
+}
+
+hr{ color:#d9d9d9;
 }
 
 .main {
@@ -83,4 +108,5 @@ iframe {
     padding: none;
 	border: none;
     }
+
 
