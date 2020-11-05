@@ -36,10 +36,7 @@
             <addrLine>
               <geogName>Glasgow</geogName>
             </addrLine>
-          <addrLine>
-            <geogName>United Kingdom</geogName>
-          </addrLine>
-        </address>
+          </address>
          <date> 2020 </date>
          <availability>
       <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc-sa/4.0/"
