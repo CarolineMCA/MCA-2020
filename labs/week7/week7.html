@@ -29,16 +29,35 @@ mei-titlestmt > mei-respstmt > mei-persName {
    	
 }
 
+	
 mei-titlestmt >  mei-respstmt > mei-resp {
    	font-size: 18px;
 	font-family: font-family: Arial, Helvetica,  sans-serif;
 }
 	
-mei-titlestmt >  mei-respstmt > mei-name{
-   	font-size: 18px;
+mei-editionstmt > mei-title::before {
+	content: "File source";
 	font-family: font-family: Arial, Helvetica,  sans-serif;
-}
+	font-size: 20px;
+	display:block;
+	  }
+mei-editionstmt > mei-arranger::before {
+	content: "Arranger:";
+	font-family: font-family: Arial, Helvetica,  sans-serif;
+	ont-size: 18px;
+	  }
+	  
+mei-editionstmt > mei-arranger {
+	display:block;
+	font-family: font-family: Arial, Helvetica,  sans-serif;
+	ont-size: 18px;
+	  }
 
+mei-editionstmt > mei-date {
+	display:block;
+	font-family: font-family: Arial, Helvetica,  sans-serif;
+	ont-size: 18px;
+	  }
 
 		
 </style>
