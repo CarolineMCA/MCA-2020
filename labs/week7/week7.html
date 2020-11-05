@@ -107,12 +107,14 @@ mei-pubstmt > mei-address > mei-geoName {
 	display:block;
 	font-size: 14px;
 	font-weight: normal;
+	font-stle:normal;
 	margin-top:20px;
 	}
 	
 mei-editionstmt > mei-date {
 	font-size: 14px;
 	font-weight: normal;
+	font-style:normal;
 	display:block;
  }
 	  
@@ -172,6 +174,7 @@ mei-encodingdesc > mei-appinfo {
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
 	font-weight: bold;
+	}
 	
 mei-worklist > mei-title {
 	display: block;
@@ -179,14 +182,14 @@ mei-worklist > mei-title {
 	font-size: 14px;
 	  } 	
 	
-mei-worklist > mei-title[type="subtitle1"]::before {
+mei-worklist > mei-album::before {
 	content: "Album: ";
 	display: block;
 	font-weight: bold;
 	font-size: 14px;
 	  }
 	
-mei-worklist > mei-title > #album-title{
+mei-worklist > mei-album {
 	display: block;
 	font-weight: normal;
 	font-size: 14px;
