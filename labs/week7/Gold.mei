@@ -64,7 +64,7 @@
       
       <workList>
      <title xml:id="title2" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz">After The Gold Rush </title>
-     <title type="subtitle" xml:id="album-title" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz">Album: After The Gold Rush </title>
+     <title type="subtitle" xml:id="album-title" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz"> After The Gold Rush </title>
      <composer startdate="1945" xml:id="composer2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </composer>
      <lyricst startdate="1945" xml:id="lyricst2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </lyricst>
 <editor xml:id="producer" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz">David Briggs and Neil Young</editor>
