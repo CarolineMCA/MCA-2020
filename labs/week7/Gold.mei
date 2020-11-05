@@ -7,7 +7,7 @@
         <titleStmt>
            <title xml:id="title1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz" >After the Gold Rush </title>
            <title xml:id="subtitle1" type="subtitle">
-             <identifier>Encoded works of Neil Young</identifier></title>
+             <identifier>Encoded work of Neil Young</identifier></title>
            <respStmt>
               <persName role="composer" startdate="1945" xml:id="composer1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young</persName>
               <persName role="lyricist" startdate="1945" xml:id="lyricst1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </persName>
@@ -51,10 +51,11 @@
           <title> Music Curation and Analytics 2020 Course Portfolio </title>
           <editor> 2267561w </editor>
           <identifier>MCA-2020</identifier>
-          <content> Encoded file of 'After the Gold Rush', first piece of the project </content>
+          <content> Encoded file of 'After the Gold Rush', first piece in the project </content>
                 </seriesStmt>
 
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000001672216476">
          <appInfo xml:id="appinfo-0000001256357645">
             <application xml:id="application-0000001869910148" isodate="2020-10-09T14:39:44" version="3.1.0-dev-2c541c5">
@@ -63,7 +64,26 @@
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+     <title xml:id="title2" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz">After The Gold Rush </title>
+     <title type="subtitle" xml:id="album-title" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz">Album: After The Gold Rush </title>
+     <composer startdate="1945" xml:id="composer2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </composer>
+     <lyricst startdate="1945" xml:id="lyricst2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </lyricst>
+<editior xml:id="producer" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz">David Briggs and Neil Young</edior>
+<funder xml:id="label"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz"> Reprise Records</funder>
+<sponsor xml:id="publisher"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz"> 	Warner Bros. Records Inc. </funder>
+     <creation xml:id="creation-original" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz">
+         <date> 12 March 1970 </date>
+       <geogName>Topanga, California, United States</geogName>
+     </creation>
+     <classification>
+        <genre xml:id="genre1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz" > Rock, folk rock, country rock, hard rock, classic rock </genre>
+    </classification>
+   </workList>
+      
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000001186439265">
