@@ -143,12 +143,16 @@ mei-worklist > mei-title::before {
 	font-size: 18px
 	  }
 	
+mei-worklist > mei-title {
+	display: block;
+	  } 	
+	
 mei-worklist > mei-title > #album-title{
 	display: block;
 	  }
 	  
 mei-worklist > mei-composer::before {
-	content: "Composer:";
+	content: "Composer: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	  }
 	
@@ -156,46 +160,80 @@ mei-worklist > mei-composer {
 	display:block ;
 	  }
 
-mei-worklist > mei-lyricst {
-	display: block;
-	  }
 	  
 mei-worklist > mei-lyricst::before {
-	content: "Lyrics:";
+	content: "Lyrics: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	  }
+	
+mei-worklist > mei-lyricst {
+	display: block;
+	  }	
+	
+mei-worklist >	mei-editor::before {
+	content: "Producer: ";
+	font-family:  Arial, Helvetica,  sans-serif;
+	}
+	
+	
+mei-worklist  >	mei-editor {
+	display: block;
+	}
+	
+		
+mei-worklist >	mei-funder::before {
+	content: "Label: ";
+	font-family:  Arial, Helvetica,  sans-serif;
+	}
+	
+	
+mei-worklist  >	mei-funder {
+	display: block;
+	}
+		
+	
+mei-worklist >	mei-sponsor::before {
+	content: "Publisher: ";
+	font-family:  Arial, Helvetica,  sans-serif;
+	}
+	
+	
+mei-worklist  >	mei-sponsor {
+	display: block;
+	}	
+	
+	
+	
 	  
 mei-worklist > mei-creation > mei-date::before {
-	content: "Released:";
-	font-family: Arial;
-	font-weight: bold;
+	content: "Released: ";
+	font-family:  Arial, Helvetica,  sans-serif;
 	  }
-	  
+	
 mei-worklist > mei-creation > mei-date {
 	display: block;
 	  }
-	  
+
+mei-worklist > mei-creation > mei-geogname::before {
+	content: "Recorded in:";
+	font-family:  Arial, Helvetica,  sans-serif;
+	  }
+	
 mei-worklist > mei-creation > mei-geogname {
 	display:block;
 	  }
 	  
-mei-worklist > mei-creation > mei-geogname::before {
-	content: "Location:";
-	font-family: Arial;
-	font-weight: bold;
+mei-worklist > mei-classification > mei-genre::before {
+	content: "Genre: ";
+	font-family:  Arial, Helvetica,  sans-serif;
 	  }
-	  
+	
 mei-worklist > mei-classification > mei-genre {
 	display: block;
 	margin-bottom: 15px;
 	  }
 	  
-mei-worklist > mei-classification > mei-genre::before {
-	content: "Genre:";
-	font-family: Arial;
-	font-weight: bold;
-	
-	  }
+
 
 	
 	
