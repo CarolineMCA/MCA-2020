@@ -122,28 +122,4 @@ iframe {
 
 
 
-mei-titlestmt > mei-title {
-	font-size: 30px;
-    	display: block;
-	font-family: font-family: Arial, Helvetica,  sans-serif;
-}
-    
-#subtitle1 {
-	display: block;
-   	font-size: 20px;
-	font-family: font-family: Arial, Helvetica,  sans-serif;
-	margin-bottom:20px;
-}
 
-mei-titlestmt > mei-respstmt > mei-persName {
-	display:none; 
-   	
-}
-
-mei-titlestmt >  mei-respstmt > mei-resp {
-	display: block;
-   	font-size: 18px;
-	font-family: font-family: Arial, Helvetica,  sans-serif;
-	margin-bottom:20px;
-	
-}
