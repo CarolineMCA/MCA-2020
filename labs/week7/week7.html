@@ -45,18 +45,10 @@ mei-editionstmt > mei-title::before {
 	 font-weight: bold;
 	  }
 	
-mei-editionstmt > mei-title::before{
-	content: "File: ";
-	font-family: Arial, Helvetica,  sans-serif;
-	font-size: 15px;
-	display:block;
-	font-weight: bold;
-	  }	
-	
 mei-editionstmt > mei-title {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 15px;
-	 font-weight: normal;
+	font-weight: normal;
 	  }	
 	
 mei-editionstmt > mei-arranger::before {
@@ -64,12 +56,13 @@ mei-editionstmt > mei-arranger::before {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 14px;
 	font-weight: bold;
+	display:block;
 	  }
 	  
 mei-editionstmt > mei-arranger {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 14px;
-	 font-weight: normal;
+	font-weight: normal;
  }
 
 mei-editionstmt > mei-date {
@@ -83,7 +76,7 @@ mei-editionstmt > mei-respstmt  > mei-corpName::before {
 	content: "Published on: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
-	font-weight: normal;
+	font-weight: bold;
 }
 	
 mei-editionstmt > mei-respstmt > mei-corpName { 	
@@ -107,7 +100,6 @@ mei-pubstmt > mei-corpName {
 }
 
 mei-pubstmt > mei-address {
-	display:block;
 	font-size:14px;
 }
 	
@@ -124,7 +116,8 @@ mei-pubstmt > mei-availability > mei-userestrict::before {
 	content: "Copyright: ";
 	font-size:14px;
 	display:block;
-	font-styke:normal;
+	font-style:normal;
+	font-weight: bold;
 	margin-top:20px;
  }
 	  
@@ -138,13 +131,14 @@ mei-pubstmt > mei-availability > mei-userestrict {
 	
 mei-seriesstmt > mei-title::before {
 	content: "Project: ";
-	font-size:13px;
+	font-size:14px;
 	display:block;
+	font-weight: bold;
 }
 	
 mei-seriesstmt > mei-title {
-	 font-weight: normal;
-	font-size:13px;
+	font-weight: normal;
+	font-size:14px;
 	display:block;
 }
 			  
@@ -158,8 +152,8 @@ mei-seriesstmt > mei-identifier {
 	
 mei-seriesstmt > mei-content {
 	display: block;
-	 font-weight: normal;
-	font-size:13px;
+	font-weight: normal;
+	font-size:14px;
 	margin-bottom:20px;
 }	
 	  	  
@@ -172,18 +166,25 @@ mei-worklist > mei-title::before {
 	display:block;
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
-	 font-weight: normal;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-title {
 	display: block;
-	 font-weight: normal;
+	font-weight: normal;
 	font-size: 14px;
 	  } 	
 	
+mei-worklist > mei-title > #album-title::before{
+	content:"Album: ";
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	  }
+	
 mei-worklist > mei-title > #album-title{
 	display: block;
-	 font-weight: normal;
+	font-weight: normal;
 	font-size: 14px;
 	  }
 	  
@@ -191,11 +192,12 @@ mei-worklist > mei-composer::before {
 	content: "Composer: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-composer {
 	display:block ;
-	 font-weight: normal;
+	font-weight: normal;
 	font-size: 14px;
 	  }
 
@@ -204,6 +206,7 @@ mei-worklist > mei-lyricst::before {
 	content: "Lyrics: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-lyricst {
@@ -216,6 +219,7 @@ mei-worklist >	mei-editor::before {
 	content: "Producer: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	}
 	
 	
@@ -230,6 +234,7 @@ mei-worklist >	mei-funder::before {
 	content: "Label: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	}
 	
 	
@@ -244,6 +249,7 @@ mei-worklist >	mei-sponsor::before {
 	content: "Publisher: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	}
 	
 	
@@ -259,6 +265,7 @@ mei-worklist > mei-creation > mei-date::before {
 	content: "Released: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-creation > mei-date {
@@ -271,6 +278,7 @@ mei-worklist > mei-creation > mei-geogname::before {
 	content: "Recorded in:";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-creation > mei-geogname {
@@ -283,6 +291,7 @@ mei-worklist > mei-classification > mei-genre::before {
 	content: "Genre: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	
 mei-worklist > mei-classification > mei-genre {
