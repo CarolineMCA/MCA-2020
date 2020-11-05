@@ -42,21 +42,20 @@ mei-editionstmt > mei-title::before {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 18px;
 	display:block;
-	 font-weight: normal;
-	margin-top:20px;
+	 font-weight: bold;
 	  }
+	
 mei-editionstmt > mei-title::before{
 	content: "File: ";
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 15px;
 	display:block;
-	font-weight: normal;
+	font-weight: bold;
 	  }	
 	
 mei-editionstmt > mei-title {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 15px;
-	display:block;
 	 font-weight: normal;
 	  }	
 	
@@ -64,30 +63,28 @@ mei-editionstmt > mei-arranger::before {
 	content: "File arranger:";
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	  }
 	  
 mei-editionstmt > mei-arranger {
 	font-family: Arial, Helvetica,  sans-serif;
 	font-size: 14px;
 	 font-weight: normal;
-	  }
+ }
 
 mei-editionstmt > mei-date {
-	display:block;
-	font-family:  Arial, Helvetica,  sans-serif;
-	font-size: 13px;
-	 font-weight: normal;
-	  }
+	display:none;	
+}
 mei-editionstmt > mei-respstmt > mei-resp {
 	display:none;
-	}
+}
 	
 mei-editionstmt > mei-respstmt  > mei-corpName::before {
 	content: "Published on: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
 	font-weight: normal;
-	  }
+}
 	
 mei-editionstmt > mei-respstmt > mei-corpName { 	
 	font-family:  Arial, Helvetica,  sans-serif;
@@ -111,7 +108,7 @@ mei-pubstmt > mei-corpName {
 
 mei-pubstmt > mei-address {
 	display:block;
-	font-size:13px;
+	font-size:14px;
 }
 	
 mei-pubstmt > mei-date::before {
@@ -119,20 +116,22 @@ mei-pubstmt > mei-date::before {
 }
 	
 mei-editionstmt > mei-date {
-	display: block;
+	font-size:14px;
  }
 	  
 	  
 mei-pubstmt > mei-availability > mei-userestrict::before {
 	content: "Copyright: ";
-	font-size:13px;
+	font-size:14px;
 	display:block;
+	font-styke:normal;
+	margin-top:20px;
  }
 	  
 mei-pubstmt > mei-availability > mei-userestrict {
-	 font-weight: normal;
+	font-weight: normal;
 	font-style: italic;
-	font-size:13px;
+	font-size:14px;
 	margin-bottom:20px;
 	display:block;
 }
