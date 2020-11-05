@@ -107,6 +107,7 @@ mei-pubstmt > mei-address > mei-geoName {
 	display:block;
 	font-size: 14px;
 	font-weight: normal;
+	margin-top:20px;
 	}
 	
 mei-editionstmt > mei-date {
@@ -165,7 +166,12 @@ mei-encodingdesc > mei-appinfo {
 	display: none;
 	  }	
 	
-
+ mei-worklist > mei-title::before {
+	content: "Original Song";
+	display:block;
+	font-family:  Arial, Helvetica,  sans-serif;
+	font-size: 14px;
+	font-weight: bold;
 	
 mei-worklist > mei-title {
 	display: block;
@@ -173,8 +179,8 @@ mei-worklist > mei-title {
 	font-size: 14px;
 	  } 	
 	
-mei-worklist > mei-title [type="subtitle"]::before  {
-	content:"Album: ";
+mei-worklist > mei-title[type="subtitle1"]::before {
+	content: "Album: ";
 	display: block;
 	font-weight: bold;
 	font-size: 14px;
@@ -273,7 +279,7 @@ mei-worklist > mei-creation > mei-date {
 	  }
 
 mei-worklist > mei-creation > mei-geogname::before {
-	content: "Recorded in:";
+	content: "Recorded: ";
 	font-family:  Arial, Helvetica,  sans-serif;
 	font-size: 14px;
 	font-weight: bold;
