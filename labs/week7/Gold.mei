@@ -5,12 +5,12 @@
    <meiHead>
       <fileDesc>
         <titleStmt>
-           <title xml:id="title1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz" >After the Gold Rush </title>
+           <title xml:id="title1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz" >After the Gold Rush </title>
            <title xml:id="subtitle1" type="subtitle">
              <identifier>Encoded work of Neil Young</identifier></title>
            <respStmt>
-              <persName role="composer" startdate="1945" xml:id="composer1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young</persName>
-              <persName role="lyricist" startdate="1945" xml:id="lyricst1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </persName>
+              <persName role="composer" startdate="1945" xml:id="composer1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Music Brainz">Neil Young</persName>
+              <persName role="lyricist" startdate="1945" xml:id="lyricst1" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Music Brainz">Neil Young </persName>
             </respStmt>
            <respStmt>
                 <resp>Encoded by</resp>
@@ -63,19 +63,19 @@
       </encodingDesc>
       
       <workList>
-     <title xml:id="title2" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz">After The Gold Rush </title>
-     <album type="subtitle1" xml:id="album-title" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Linked Brainz"> After The Gold Rush </album>
-     <composer startdate="1945" xml:id="composer2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </composer>
-     <lyricst startdate="1945" xml:id="lyricst2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Linked Brainz">Neil Young </lyricst>
-<editor xml:id="producer" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz">David Briggs and Neil Young</editor>
-<funder xml:id="label"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz"> Reprise Records</funder>
-<sponsor xml:id="publisher"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz"> 	Warner Bros. Records Inc. </sponsor>
-     <creation xml:id="creation-original" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz">
+     <title xml:id="title2" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Music Brainz">After The Gold Rush </title>
+     <album type="subtitle1" xml:id="album-title" auth.uri="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" auth="Music Brainz"> After The Gold Rush </album>
+     <composer startdate="1945" xml:id="composer2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Music Brainz">Neil Young </composer>
+     <lyricst startdate="1945" xml:id="lyricst2" auth.uri="https://musicbrainz.org/artist/75167b8b-44e4-407b-9d35-effe87b223cf" auth="Music Brainz">Neil Young </lyricst>
+<editor xml:id="producer" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz">David Briggs and Neil Young</editor>
+<funder xml:id="label"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz"> Reprise Records</funder>
+<sponsor xml:id="publisher"  auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz"> 	Warner Bros. Records Inc. </sponsor>
+     <creation xml:id="creation-original" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz">
          <date> 12 March 1970 </date>
        <geogName>Topanga, California, United States</geogName>
      </creation>
      <classification>
-        <genre xml:id="genre1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Linked Brainz" > Rock, folk rock, country rock, hard rock, classic rock </genre>
+        <genre xml:id="genre1" auth.uri="https://musicbrainz.org/recording/a1d14a11-b6ec-4dd9-a8f8-c58deb43a41f" auth="Music Brainz" > Rock, folk rock, country rock, hard rock, classic rock </genre>
     </classification>
    </workList>
       
