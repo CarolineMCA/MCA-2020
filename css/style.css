@@ -6,22 +6,6 @@ tei-teiHeader {
   display: none;
 }
 
-#description {
-  margin: 0 0 1em 0;
-}
-
-tei-teiHeader {
-  display: none;
-}
-
-#description {
-  margin: 0 0 1em 0;
-}
-
-tei-teiHeader {
-  display: none;
-}
-
 
 p {
    color: black;
@@ -73,7 +57,7 @@ li{	list-style-type: none;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-th, tr {
+tr {
 	font-weight: normal;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -81,12 +65,17 @@ th, tr {
 figcaption{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:18px;
-	text-align:center; 
+	text-align:center;
 }
 
-table{
+table, th, td{
 	font-size:18px;
-}
+	 border: 1px solid black;
+	 border-collapse:collapse; 
+	
+}	
+
+
 
 .main {
   margin-right: 160px;  /* KEEP SAME AS SIDEBAR  WIDTH */
@@ -119,6 +108,59 @@ iframe {
     padding: none;
 	border: none;
     }
+	
+#audio-analysis{
+	height:80%;
+	width:80%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+   
+}
+
+
+#audio-transcription{
+	height:100%;
+	width:100%;
+
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#similarity-matrix {
+	height:50%;
+	width:50%;
+	display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+
+
+}
 
 
 
